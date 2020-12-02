@@ -4,6 +4,7 @@ image:
 tasks:
   - init: make init
   - command: hugo server --baseUrl $(gp url 1313) --appendPort=false
+    openMode: tab-before
 
 ports:
   - port: 1313
