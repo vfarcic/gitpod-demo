@@ -6,6 +6,8 @@ tasks:
   - command: hugo server --baseUrl $(gp url 1313) --appendPort=false
     name: Hugo
     openMode: tab-before
+  - command: echo "Make sure to add the GITHUB_TOKEN variable to the Codefresh pipeline devops-toolkit-master"
+    name: Pending actions!!!
 
 ports:
   - port: 1313
