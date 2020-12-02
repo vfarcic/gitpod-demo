@@ -7,3 +7,6 @@
 [submodule "themes/forty"]
 	path = themes/forty
 	url = https://github.com/MarcusVirg/forty.git
+[submodule "forty"]
+	path = forty
+	url = https://github.com/MarcusVirg/forty
